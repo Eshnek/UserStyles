@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name           Code
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Format code blocks
+@author         Eshnek
+@preprocessor   stylus
+==/UserStyle== */
+
+code {
+    background-color: #7777771a !important;
+    // color: #bbb !important;
+
+    padding: 2px 4px !important;
+    padding-bottom: 1px !important;
+    padding-top: 1px !important;
+
+    border: 3px solid #8888882a !important;
+    border-radius: 8px !important;
+
+    // box-shadow: 4px 4px 8px #11111144; // Looks better without
+
+    // margin-right: 1px !important; // Text sometimes touches it
+}
+
+pre {
+    // border: 2px solid #ffffff18 !important;
+}
+pre code {
+    background-color: transparent !important;
+
+    border: none !important;
+}
