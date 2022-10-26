@@ -15,6 +15,6 @@
     }*/
 
     .Progress {
-        filter: sepia(50%);
+        filter: invert() contrast(50%) sepia(50%);
     }
 }
