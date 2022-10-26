@@ -7,7 +7,8 @@
 @preprocessor   stylus
 ==/UserStyle== */
 
-code {
+// Standalone Code Tags
+code:not(pre code) {
     background-color: #7777771a !important;
     // color: #bbb !important;
 
@@ -26,11 +27,12 @@ code {
     // margin-right: 1px !important; // Text sometimes touches it
 }
 
-pre {
-    // border: 2px solid #ffffff18 !important;
+// Code Blocks
+pre:has(code) {
+    border: 3px solid #77777720 !important;
 }
-pre code {
-    background-color: transparent !important;
 
-    border: none !important;
+// Block Quotes
+blockquote {
+    background: #77777710 !important;
 }
