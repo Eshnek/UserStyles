@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           8/10/2022, 8:09:37 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Github Language Bar
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    /*.Progress > *[aria-label^='C++'] {
+        filter: invert(100%);
+    }
+    .Progress {
+        border: 1px solid #222;
+    }*/
+
+    .Progress {
+        filter: sepia(50%);
+    }
+}
