@@ -14,7 +14,8 @@
         border: 1px solid #222;
     }*/
 
-    .Progress {
+    .Progress,
+    .BorderGrid-row .BorderGrid-cell .list-style-none {
         filter: invert() contrast(50%) sepia(20%) brightness(140%);
     }
 }
