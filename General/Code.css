@@ -30,6 +30,15 @@ code:not(pre code) {
 // Code Blocks
 pre:has(code) {
     border: 3px solid #77777720 !important;
+
+    box-shadow: 0px 0px 16px 2px #ffffff0a;
+    // box-shadow: 0px 0px 16px 0px #7777774a;
+
+    overflow: visible !important;
+}
+.overflow-auto, // Github
+div:has(pre > code) {
+    overflow: visible !important;
 }
 
 // Block Quotes
