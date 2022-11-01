@@ -37,6 +37,8 @@ pre:has(code) {
     overflow: visible !important;
 
     white-space: break-spaces;
+
+    max-height: none;
 }
 .overflow-auto, // Github
 div:has(pre > code) {
