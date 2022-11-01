@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           StackOverflow
+@namespace      github.com/openstyles/stylus
+@version        0.0.1
+@author         Eshnek
+@preprocessor   stylus
+==/UserStyle== */
+
+@-moz-document domain("stackoverflow.com") {
+    // Advertisement is nearly invisible
+    .js-freemium-cta {
+        opacity: .1;
+    }
+}
