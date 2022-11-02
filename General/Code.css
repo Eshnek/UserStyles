@@ -28,7 +28,9 @@ code:not(pre code) {
 }
 
 // Code Blocks
-pre:has(code) {
+pre:has(code),
+.markdown-body > pre // Github
+{
     border: 3px solid #77777720 !important;
 
     box-shadow: 0px 0px 16px 2px #ffffff0a;
@@ -48,4 +50,6 @@ div:has(pre > code) {
 // Block Quotes
 blockquote {
     background: #77777710 !important;
+    
+    border-radius: 2px;
 }
