@@ -42,6 +42,11 @@ pre:has(code),
 
     max-height: none;
 }
+.markdown-body pre > code // Github
+{
+    // Lines do not go past the end of the pre
+    white-space: pre-line;
+}
 .overflow-auto, // Github
 div:has(pre > code) {
     overflow: visible !important;
@@ -50,6 +55,6 @@ div:has(pre > code) {
 // Block Quotes
 blockquote {
     background: #77777710 !important;
-    
+
     border-radius: 2px;
 }
