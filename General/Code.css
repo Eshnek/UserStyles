@@ -45,7 +45,7 @@ pre:has(code),
 .markdown-body pre > code // Github
 {
     // Lines do not go past the end of the pre
-    white-space: pre-line;
+    white-space: pre-wrap;
 }
 .overflow-auto, // Github
 div:has(pre > code) {
