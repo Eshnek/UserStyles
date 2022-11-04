@@ -30,7 +30,8 @@ code:not(pre code) {
 
 // Code Blocks
 pre:has(code),
-.markdown-body > pre // Github
+.markdown-body > pre, // Github
+.markdown-body > .highlight > pre // Github
 {
     border: 3px solid #77777720 !important;
 
