@@ -10,7 +10,7 @@
 @-moz-document domain("github.com") {
     /*.Progress > *[aria-label^='C++'] {
         filter: invert(100%);
-    } // Test
+    }
     .Progress {
         border: 1px solid #222;
     }*/
