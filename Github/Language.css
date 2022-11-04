@@ -1,22 +1,22 @@
 /* ==UserStyle==
-@name           8/10/2022, 8:09:37 PM
+@name           Github Language Bar
 @namespace      github.com/openstyles/stylus
 @updateURL      https://raw.githubusercontent.com/Eshnek/UserStyles/main/Github/Language.css
-@version        1.0.0
-@description    Github Language Bar
-@author         Me
+@version        1.0.1
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
-    /*.Progress > *[aria-label^='C++'] {
-        filter: invert(100%);
-    }
-    .Progress {
-        border: 1px solid #222;
-    }*/
-
     .Progress,
     .BorderGrid-row .BorderGrid-cell .list-style-none {
         filter: invert() contrast(50%) sepia(20%) brightness(140%);
     }
+
+    /*
+    .Progress > *[aria-label^='C++'] {
+        filter: invert(100%);
+    }
+    .Progress {
+        border: 1px solid #222;
+    }
+    */
 }
