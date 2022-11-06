@@ -2,14 +2,16 @@
 @name           StackOverflow
 @namespace      github.com/openstyles/stylus
 @updateURL      https://raw.githubusercontent.com/Eshnek/UserStyles/main/StackOverflow/StackOverflow.css
-@version        0.0.1
+@version        0.0.2
 @author         Eshnek
 @preprocessor   stylus
 ==/UserStyle== */
 
 @-moz-document domain("stackoverflow.com") {
     // Advertisement is nearly invisible
-    .js-freemium-cta {
+    .js-freemium-cta,
+    .s-sidebarwidget
+    {
         opacity: .1;
     }
 }
