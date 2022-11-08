@@ -2,7 +2,7 @@
 @name           Code
 @namespace      github.com/openstyles/stylus
 @updateURL      https://raw.githubusercontent.com/Eshnek/UserStyles/main/General/Code.css
-@version        1.0.0
+@version        0.0.2
 @description    Format code blocks
 @author         Eshnek
 @preprocessor   stylus
@@ -38,7 +38,8 @@ pre:has(code),
     box-shadow: 0px 0px 16px 2px #ffffff0a;
     // box-shadow: 0px 0px 16px 0px #7777774a;
 
-    overflow: visible !important;
+    // overflow: visible !important;
+    overflow: scroll !important;
 
     white-space: break-spaces;
 
