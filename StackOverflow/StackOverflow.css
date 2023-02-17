@@ -7,7 +7,7 @@
 @preprocessor   stylus
 ==/UserStyle== */
 
-@-moz-document domain("stackoverflow.com") {
+@-moz-document domain("stackoverflow.com"), domain("stackexchange.com") {
     // Advertisement is nearly invisible
     .js-freemium-cta,
     .s-sidebarwidget,
